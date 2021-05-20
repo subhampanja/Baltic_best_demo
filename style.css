@@ -23,6 +23,10 @@
   height: 96%;
   width: 100%;
 }
+.showcase{
+  height: 100%;
+  width: 100%;
+}
 
 .right-pillar {
   flex: 1;
@@ -34,6 +38,8 @@
   z-index: 10000;
   display: flex;
   justify-content: center;
+  height: 100%;
+  width: 100%;
 }
 video {
   position: absolute;
