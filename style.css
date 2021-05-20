@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond:wght@600&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  position: relative;
+  height: 100vh;
+  display: flex;
+  width: 100%;
+}
+
+.left-pillar {
+  flex: 1;
+  height: 100%;
+  width: 100%;
+}
+
+.videoMain {
+  flex: 8;
+  position: relative;
+  height: 96%;
+  width: 100%;
+}
+
+.right-pillar {
+  flex: 1;
+  height: 100%;
+  width: 100%;
+}
+
+.video {
+  z-index: 10000;
+  display: flex;
+  justify-content: center;
+}
+video {
+  position: absolute;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.pillar-left {
+  height: 100%;
+  width: 100%;
+}
+
+.pillar-right {
+  height: 100%;
+  width: 100%;
+}
+
+.pillar-img {
+  height: 100% !important;
+  width: 100% !important;
+}
+
+.pillar-btn-left {
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+  height: 100vh;
+  width: 10vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.left-pillar-btns {
+  min-height: 70%;
+  max-height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.imgs {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.imgs img {
+  padding-top: 9%;
+  transition: 0.5s;
+  width: 90%;
+  transition: 0.5s;
+}
+.imgs img:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+
+.imgsR {
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+.imgsR img {
+  padding-top: 6%;
+  transition: 0.5s;
+  width: 90%;
+  transition: 0.5s;
+}
+.imgsR img:hover {
+  cursor: pointer;
+  transform: scale(1.05);
+}
+
+
+.pillar-btn-right {
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: 9999;
+  height: 100vh;
+  width: 10vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.right-pillar-btns {
+  min-height: 70%;
+  max-height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+.footer-text{
+  position: absolute;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 99999;
+  height: 4vh;
+}
+.text-bg{
+  background-color: white;
+  height: 100%;
+  display: flex;
+  align-items: center;
+}
+.text-bg h4{
+  padding-left: 2px;
+  font-weight: bolder;
+}
+
+
+
+
+
+
+/* developed by subham (https://subhampanja-28.web.app) */
