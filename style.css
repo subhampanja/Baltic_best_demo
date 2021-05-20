@@ -38,7 +38,7 @@
   z-index: 10000;
   display: flex;
   justify-content: center;
-  height: 96%;
+  height: 100%;
   width: 100%;
 }
 video {
@@ -46,7 +46,7 @@ video {
   top: 0;
   height: 100%;
   width: 100%;
-  object-fit: cover;
+  object-fit: fill;
 }
 .pillar-left {
   height: 100%;
